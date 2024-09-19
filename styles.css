@@ -1,0 +1,124 @@
+body {
+    background-color: rgba(21, 45, 53, 0.96);
+}
+
+h4 {
+    color: #ffffff;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+h5 {
+    color: #ffffff;
+}
+/* header */
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #151515;
+    color: #fff;
+}
+
+.header-pages {
+    font-size: 24px;
+    display: flex;
+    gap: 40px;
+}
+
+.logo img {
+    height: 100px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header-pages {
+    display: flex;
+}
+/* main */
+
+
+.popular-movies {
+    display: flex;
+    gap: 10px; 
+}
+
+.popular-movies div {
+    width: 329px;
+    height: 492px;
+}
+
+.popular-movies img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.popular-movies-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.popular-movies-table th,
+.popular-movies-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+
+.popular-movies-table th {
+    background-color: rgb(72, 147, 204);
+    color: white;
+}
+
+
+form {
+    background-color: rgb(72, 147, 204);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    color: #fff;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+/* footer */
+
+footer {
+    background-color: #151515;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    height: 40px; 
+}
+
+.footer-socialmedia img {
+        height: 40px;
+        width: auto;
+}
+
+
